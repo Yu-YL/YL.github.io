@@ -4,47 +4,54 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>❤️JN💑YL❤️</title>
+    <title>❤️YL💑JN❤️</title>
     <link type="text/css" rel="stylesheet" href="./file/default.css" />
     <script type="text/javascript" src="./file/jquery.min.js"></script>
     <script type="text/javascript" src="./file/jscex.min.js"></script>
     <script type="text/javascript" src="./file/jscex-parser.js"></script>
     <script type="text/javascript" src="./file/jscex-jit.js"></script>
-    <script
-      type="text/javascript"
-      src="./file/jscex-builderbase.min.js"
-    ></script>
+    <script type="text/javascript" src="./file/jscex-builderbase.min.js"></script>
     <script type="text/javascript" src="./file/jscex-async.min.js"></script>
-    <script
-      type="text/javascript"
-      src="./file/jscex-async-powerpack.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="./file/functions.js"
-      charset="utf-8"
-    ></script>
-    <script
-      type="text/javascript"
-      src="./file/love.js"
-      charset="utf-8"
-    ></script>
+    <script type="text/javascript" src="./file/jscex-async-powerpack.min.js"></script>
+    <script type="text/javascript" src="./file/functions.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./file/love.js" charset="utf-8"></script>
     <style type="text/css">
       audio {
         position: fixed;
         right: 0px;
         bottom: 0px;
       }
+
+      @media screen and (max-width: 768px) {
+        #clock-box {
+          position: static;
+          text-align: center;
+          margin-top: 20px;
+        }
+
+        #goTophotoPage {
+          position: static;
+          margin: 10px auto;
+          display: block;
+        }
+
+        #canvas {
+          width: 100% !important;
+          height: auto !important;
+        }
+
+        #wrap {
+          width: 100% !important;
+          height: auto !important;
+          padding: 10px;
+        }
+      }
     </style>
   </head>
   <body>
     <div id="main">
       <div id="error">
-        本页面采用HTML5编辑，目前您的浏览器无法显示，请换成谷歌(<a
-          href="http://www.google.cn/chrome/intl/zh-CN/landing_chrome.html?hl=zh-CN&brand=CHMI"
-          >Chrome</a
-        >)或者火狐(<a href="http://firefox.com.cn/download/">Firefox</a
-        >)浏览器，或者其他游览器的最新版本。
+        本页面采用HTML5编辑，目前您的浏览器无法显示，请换成谷歌(<a href="https://www.google.cn/chrome/intl/zh-CN/landing_chrome.html?hl=zh-CN&brand=CHMI">Chrome</a>)或者火狸(<a href="http://firefox.com.cn/download/">Firefox</a>)浏览器，或者其他游览器的最新版本。
       </div>
       <audio id="audios" controls height="100" width="100" volume="1.0">
         <source src="YL0123.mp3" type="audio/mp3" />
@@ -53,62 +60,59 @@
 
       <script>
         var audio = document.getElementById("audios");
-        audio.controls = false; // 隐藏默认的播放控件
-
+        audio.controls = false;
         document.addEventListener("touchstart", function () {
           audio.play();
         });
-
         document.addEventListener("click", function () {
           audio.play();
         });
       </script>
 
-      <div id="wrap">
-        <div id="text">
-          <div id="code">
-            <font color="#FF0000">  
-              <span class="say"></span><br /> 
-              <span class="say"></span><br /> 
-              <span class="say"></span><br /> 
-              <span class="say"></span><br />
-              <span class="say">臭派郎</span><br /> 
-              <span class="say"></span><br />
-              <span class="say">祝我們 一周年 快樂❤️</span><br /> 
-              <span class="say"></span><br />  
-              <span class="say"></span><br /> 
-              <span class="say">時間過得真快</span><br />  
-              <span class="say">謝謝每天都有妳的陪伴跟調皮</span><br /> 
-              <span class="say">  和妳在一起的時候 </span><br /> 
-              <span class="say">感覺自己是世界上最幸福的人</span><br />
-              <span class="say">👫</span><br /> 
-              <span class="say"></span><br /> 
-              <span class="say">❤️未來的還請多多指教❤️</span><br />  
-              <span class="say"> 希望能夠繼續陪伴著妳</span><br />  
-              <span class="say">    面對未來的挑戰 </span><br />
-              <span class="say">❤️謝謝派郎 幫我添加了很多色彩❤️</span><br />
-              <span class="say"></span><br /> 
-              <span class="say"></span><br />
-              <span class="say">這網站記錄著我們的時光</span><br />
-            </font> 
-          </div>
+<div id="wrap">
+  <div id="text">
+    <div id="code">
+      <font color="#FF0000">  
+        <span class="say"></span><br /> 
+        <span class="say"></span><br /> 
+        <span class="say"></span><br /> 
+        <span class="say"></span><br />
+        <span class="say">派郎</span><br /> 
+        <span class="say"></span><br />
+        <span class="say">祝我們 一周年 快樂❤️</span><br /> 
+        <span class="say"></span><br />  
+        <span class="say"></span><br /> 
+        <span class="say">時間過得真快</span><br />  
+        <span class="say">謝謝每天都有妳的陪伴跟調皮</span><br /> 
+        <span class="say">  和妳在一起的時候 </span><br /> 
+        <span class="say">感覺自己是世界上最幸福的人</span><br />
+        <span class="say">👫</span><br /> 
+        <span class="say"></span><br /> 
+        <span class="say">❤️未來的還請多多指教❤️</span><br />  
+        <span class="say"> 希望能夠繼續陪伴著妳</span><br />  
+        <span class="say">    面對未來的挑戰 </span><br />
+        <span class="say">❤️謝謝派郎 幫我添加了很多色彩❤️</span><br />
+        <span class="say"></span><br /> 
+        <span class="say"></span><br />
+        <span class="say">這網站記錄著我們的時光</span><br />
+      </font> 
+    </div>
         </div>
         <div id="clock-box">
           <span class="STYLE1"></span><font color="#33CC00"></font>
           <span class="STYLE1"></span>
-          <div id="clock"></div>   
-          <button id="goTophotoPage" style="margin-top: 20px;">前往YL💑JN相簿集(施工中......)</button>
+          <div id="clock"></div>
+          <button id="goTophotoPage" style="margin-top: 20px;">前往YL💑JN相簿集</button>
         </div>
-        <canvas id="canvas" width="1100" height="680"></canvas> 
-      </div> 
+        <canvas id="canvas" width="1100" height="680"></canvas>
+      </div>
     </div>
- 
 
     <script>
-      document.getElementById("goTophotoPage").onclick = function() {
-          window.location.href = "photo.html"; // 替换为目标HTML文件的路径
+      document.getElementById("goTophotoPage").onclick = function () {
+        window.location.href = "https://yu-yl.github.io/photo/PHOTO/index.html";
       };
-  </script> 
+    </script>
 
     <script>
       (function () {
